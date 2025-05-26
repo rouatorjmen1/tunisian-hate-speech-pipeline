@@ -28,8 +28,6 @@ Compatible with Google Colab and local execution environments.
 
 ├── pipeline.ipynb                  # Main notebook implementing the full pipeline
 
-├── utils.py                        # Auxiliary functions (optional)
-
 ├── requirements.txt                # Python dependencies
 
 ├── data/
