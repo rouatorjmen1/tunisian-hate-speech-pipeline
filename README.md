@@ -34,17 +34,19 @@ Compatible with Google Colab and local execution environments.
 
 │   └── sample_thsab.csv            # extract of T-HSAB dataset 
 
-├── models/
+models/
+
+└── tunbert_sa_tf/
+
+    ├── tuned_model.ckpt.*
     
-│   └── tunbert_sa_tf
+    ├── config.json
+    
+    ├── vocab.txt
+    
+    └── saved_model/
         
-    │   ├── tuned_model.ckpt.*
-
-    │   ├── config.json
-
-    │   └── vocab.txt
-
-
+        └── tf_model.h5
 
 ├── src/
 
