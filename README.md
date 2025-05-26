@@ -126,8 +126,28 @@ Confusion matrix visualization
 
 
 ## Model
-We utilize TunBert, a transformer-based model pretrained on Tunisian dialect social media data, optimized for dialectal Arabic understanding.
 
+We utilize TunBERT, a transformer-based model pretrained on Tunisian dialect social media data, optimized for dialectal Arabic understanding.
+
+To use **TunBERT-TensorFlow** for Sentiment Analysis (SA), clone or download the repository 👉 https://github.com/instadeepai/tunbert.
+
+Create a folder: `models/tunbert_sa_tf/`
+
+Place the following files in that folder:
+
+- `tuned_model.ckpt.*`  
+- `config.json`  
+- `vocab.txt`  
+
+### Additional Models
+
+In addition to TunBERT, we also compare the performance of other Arabic pre-trained BERT models:
+
+- **AraBERT**: [`aubmindlab/araBERTv02`](https://huggingface.co/aubmindlab/araBERTv02)  
+- **ARABERT**: [`aubmindlab/bert-base-arabertv2`](https://huggingface.co/aubmindlab/bert-base-arabertv2)  
+- **MARBERT**: [`UBC-NLP/MARBERT`](https://huggingface.co/UBC-NLP/MARBERT)  
+
+These models are automatically downloaded from Hugging Face during pipeline execution
 ## License
 This repository is available for academic and research use. Users are encouraged to adapt and extend the code for scholarly purposes.
 
