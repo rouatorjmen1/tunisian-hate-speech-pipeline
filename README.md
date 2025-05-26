@@ -36,6 +36,16 @@ Compatible with Google Colab and local execution environments.
 
 │   └── sample_thsab.csv            # Example dataset 
 
+├── src/
+
+│   ├── preprocessing.py             # Text cleaning and normalization
+
+│   ├── data_utils.py                # Data loading and encoding
+
+│   ├── model_utils.py               # Model loading, compilation, and training
+
+│   └── evaluation.py                # Evaluation, classification report, and heatmap
+
 └── README.md                      # This document
 
 ## Dataset
