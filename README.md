@@ -26,7 +26,7 @@ Compatible with Google Colab and local execution environments.
 ## Repository Structure:
 .
 
-├── pipeline_thsab_tunibert.ipynb    # Main notebook implementing the full pipeline
+├── pipeline.ipynb                  # Main notebook implementing the full pipeline
 
 ├── utils.py                        # Auxiliary functions (optional)
 
@@ -46,7 +46,7 @@ Compatible with Google Colab and local execution environments.
 
 │   └── evaluation.py                # Evaluation, classification report, and heatmap
 
-└── README.md                      # This document
+└── README.md                        # This document
 
 ## Dataset
 Download the original T-HSAB dataset from the official repository:
