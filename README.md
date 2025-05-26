@@ -4,7 +4,7 @@ This repository provides a comprehensive pipeline for detecting hate speech, abu
 This work replicates the experimental methodology detailed in the peer-reviewed publication:
 
 "Tunisian Dialect Hate Speech and Abuse Detection with BERT-Based Models"
-Roua Torjmen and Kais Haddar — Accepted at KES 2025
+Roua Torjmen and Kais Haddar —  Accepted Subject to Revision at KES 2025
 
 ##  Overview
 Overview
