@@ -26,10 +26,15 @@ Compatible with Google Colab and local execution environments.
 ## Repository Structure:
 .
 ├── pipeline_thsab_tunibert.ipynb    # Main notebook implementing the full pipeline
+
 ├── utils.py                        # Auxiliary functions (optional)
+
 ├── requirements.txt                # Python dependencies
+
 ├── data/
+
 │   └── sample_thsab.csv            # Example dataset (mock or real)
+
 └── README.md                      # This document
 
 ## Dataset
