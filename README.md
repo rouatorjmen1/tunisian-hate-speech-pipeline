@@ -47,16 +47,32 @@ Compatible with Google Colab and local execution environments.
 └── README.md                        # This document
 
 ## Dataset
-Download the original T-HSAB dataset from the official repository:
+This project utilizes the T-HSAB dataset: a Tunisian dialect hate speech and abusive language dataset. You can obtain the original dataset from the official repository:
 
 👉 https://github.com/Hala-Mulki/T-HSAB-A-Tunisian-Hate-Speech-and-Abusive-Dataset
 
-Place the dataset file (e.g., thsab.csv) inside the data/ directory. The file should contain two columns: texte and categorie.
+After downloading, please follow these instructions:
 
-Change labels :
-   - hate -> 0
-   - neutral -> 1
-   - abuse -> 2
+1. Place the dataset file (thsab.csv) into the project's data/ directory.
+
+2. The dataset must include at least the following two columns:
+
+      text: the raw text in Tunisian Arabic
+      
+      label: the class label (hate, neutral, or abuse).
+
+3. Label Encoding:
+For training and evaluation purposes, the categorie column should be mapped to numerical values as follows:
+
+      hate → 0
+      
+      neutral → 1
+      
+      abuse → 2
+
+🔍 You can refer to data/sample_thsab.csv provided in the repository as a format reference for preprocessing and label encoding.
+
+Please see sample_thsab.csv like a guide
 
 ## Installation and Usage
 ### Clone the repository
