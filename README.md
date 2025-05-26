@@ -36,13 +36,13 @@ Compatible with Google Colab and local execution environments.
 
 ├── models/
     
-    └── tunbert_sa_tf
+│   └── tunbert_sa_tf
         
-        └── tuned_model.ckpt.*
+    │   └── tuned_model.ckpt.*
 
-        └── config.json
+    │   └── config.json
 
-        └── vocab.txt
+    │   └── vocab.txt
 
 
 
