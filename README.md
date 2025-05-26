@@ -53,7 +53,7 @@ Download the original T-HSAB dataset from the official repository:
 
 Place the dataset file (e.g., thsab.csv) inside the data/ directory. The file should contain two columns: texte and categorie.
 
-change labels :
+Change labels :
    - hate -> 0
    - neutral -> 1
    - abuse -> 2
