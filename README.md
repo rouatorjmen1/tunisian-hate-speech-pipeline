@@ -34,7 +34,7 @@ Compatible with Google Colab and local execution environments.
 
 ├── data/
 
-│   └── sample_thsab.csv            # Example dataset (mock or real)
+│   └── sample_thsab.csv            # Example dataset 
 
 └── README.md                      # This document
 
