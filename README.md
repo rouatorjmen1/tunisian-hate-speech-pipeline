@@ -54,17 +54,17 @@ Compatible with Google Colab and local execution environments.
 
 │       └── saved_model/           # Converted TensorFlow model
 
-│           ├── assets
+│            ├── assets
 
-│           ├── keras_metadata.pb
+│            ├── keras_metadata.pb
 
-│           ├── saved_model.pb
+│            ├── saved_model.pb
 
-│           └── variables/
+│            └── variables/
 
-│               ├── variables.data-00000-of-00001
+│                  ├── variables.data-00000-of-00001
 
-│               └── variables.index
+│                  └── variables.index
 
 ├── src/
 
