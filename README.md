@@ -93,7 +93,6 @@ Precision and Recall per class
 
 Confusion matrix visualization
 
-Typical results show F1-scores up to 0.97 on the T-HSAB dataset.
 
 ## Model
 We utilize TunBert, a transformer-based model pretrained on Tunisian dialect social media data, optimized for dialectal Arabic understanding.
