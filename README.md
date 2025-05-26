@@ -32,7 +32,7 @@ Compatible with Google Colab and local execution environments.
 
 ├── data/
 
-│   └── sample_thsab.csv            # Example dataset 
+│   └── sample_thsab.csv            # extract of T-HSAB dataset 
 
 ├── src/
 
@@ -52,6 +52,11 @@ Download the original T-HSAB dataset from the official repository:
 👉 https://github.com/Hala-Mulki/T-HSAB-A-Tunisian-Hate-Speech-and-Abusive-Dataset
 
 Place the dataset file (e.g., thsab.csv) inside the data/ directory. The file should contain two columns: texte and categorie.
+
+change labels :
+   - hate -> 0
+   - neutral -> 1
+   - abuse -> 2
 
 ## Installation and Usage
 ### Clone the repository
