@@ -28,37 +28,54 @@ Compatible with Google Colab and local execution environments.
 
 ├── pipeline.ipynb                  # Main notebook implementing the full pipeline
 
-├── requirements.txt                # Python dependencies
+├── convert_tunbert_tf.py          # Script to convert TunBERT checkpoint to TensorFlow SavedModel format
+
+├── requirements.txt               # Python dependencies
+
+├── README.md                      # Project documentation
 
 ├── data/
 
-│   └── sample_thsab.csv            # extract of T-HSAB dataset 
+│   └── sample_thsab.csv           # Extract of the T-HSAB dataset
 
-models/
+├── models/
 
-└── tunbert_sa_tf/
+│   └── tunbert_sa_tf/             # TunBERT-TF directory for Sentiment Analysis
 
-    ├── tuned_model.ckpt.*
-    
-    ├── config.json
-    
-    ├── vocab.txt
-    
-    └── saved_model/
-        
-        └── tf_model.h5
+│       ├── config.json
+
+│       ├── vocab.txt
+
+│       ├── tuned_model.ckpt.data-00000-of-00001
+
+│       ├── tuned_model.ckpt.index
+
+│       ├── tuned_model.ckpt.meta
+
+│       └── saved_model/           # Converted TensorFlow model
+
+│           ├── assets
+
+│           ├── keras_metadata.pb
+
+│           ├── saved_model.pb
+
+│           └── variables/
+
+│               ├── variables.data-00000-of-00001
+
+│               └── variables.index
 
 ├── src/
 
-│   ├── preprocessing.py             # Text cleaning and normalization
+│   ├── preprocessing.py           # Text cleaning and normalization
 
-│   ├── data_utils.py                # Data loading and encoding
+│   ├── data_utils.py              # Data loading and encoding
 
-│   ├── model_utils.py               # Model loading, compilation, and training
+│   ├── model_utils.py             # Model loading, tokenization, training
 
-│   └── evaluation.py                # Evaluation, classification report, and heatmap
+│   └── evaluation.py              # Evaluation and metrics
 
-└── README.md                        # This document
 
 ## Dataset
 This project utilizes the T-HSAB dataset: a Tunisian dialect hate speech and abusive language dataset. You can obtain the original dataset from the official repository:
