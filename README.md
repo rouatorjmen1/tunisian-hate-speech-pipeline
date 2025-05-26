@@ -34,6 +34,18 @@ Compatible with Google Colab and local execution environments.
 
 │   └── sample_thsab.csv            # extract of T-HSAB dataset 
 
+├── models/
+    
+    └── tunbert_sa_tf
+        
+        └── tuned_model.ckpt.*
+
+        └── config.json
+
+        └── vocab.txt
+
+
+
 ├── src/
 
 │   ├── preprocessing.py             # Text cleaning and normalization
