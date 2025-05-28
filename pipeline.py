@@ -1,4 +1,5 @@
-!pip install transformers datasets tensorflow scikit-learn matplotlib seaborn
+# To install dependencies, run this in your terminal:
+# pip install transformers datasets tensorflow scikit-learn matplotlib seaborn
 
 
 
