@@ -20,7 +20,7 @@ from src.evaluation import predict_classes, evaluate_model
 
 
 models_to_compare = {
-    "TunBERT": "TunBERT-TF-SA": "local_tunbert",
+    "TunBERT": "TunBERT-TF-SA",
     "AraBERT": "aubmindlab/araBERTv02",
     "ARBERT": "UBC-NLP/ARBERT",
     "MARBERT": "UBC-NLP/MARBERT"
