@@ -26,7 +26,7 @@ Compatible with Google Colab and local execution environments.
 ## Repository Structure:
 .
 
-├── pipeline.ipynb                  # Main notebook implementing the full pipeline
+├── pipeline.py                  # Main notebook implementing the full pipeline
 
 ├── convert_tunbert_tf.py          # Script to convert TunBERT checkpoint to TensorFlow SavedModel format
 
