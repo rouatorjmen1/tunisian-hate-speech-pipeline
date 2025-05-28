@@ -1,5 +1,5 @@
-# 🇹🇳 Tunisian Dialect Hate Speech and Abuse Detection Using TunBERT
-This repository provides a comprehensive pipeline for detecting hate speech, abusive language, and neutral content in the Tunisian dialect. The approach leverages the pre-trained BERT-based language model AhmedBou/TuniBert, specifically adapted for the nuances of Tunisian Arabic.
+# Tunisian Dialect Hate Speech and Abuse Detection Using TunBERT
+This repository provides a comprehensive pipeline for detecting hate speech, abusive language, and neutral content in the Tunisian dialect. The approach leverages the pre-trained BERT-based language models, specifically adapted for the nuances of Tunisian dialect.
 
 This work replicates the experimental methodology detailed in the peer-reviewed publication:
 
