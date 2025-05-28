@@ -21,7 +21,7 @@ from src.evaluation import predict_classes, evaluate_model
 
 
 models_to_compare = {
-    "TunBERT": "TunBERT-TF-SA",
+    "TunBERT": "local_tunbert",  # Must be placed in models/tunbert_sa_tf/
     "AraBERT": "aubmindlab/araBERTv02",
     "ARBERT": "UBC-NLP/ARBERT",
     "MARBERT": "UBC-NLP/MARBERT"
