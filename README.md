@@ -162,8 +162,8 @@ Place the following files in that folder:
 
 In addition to TunBERT, we also compare the performance of other Arabic pre-trained BERT models:
 
-- **AraBERT**: [`aubmindlab/araBERTv02`](https://huggingface.co/aubmindlab/araBERTv02)  
-- **ARABERT**: [`aubmindlab/bert-base-arabertv2`](https://huggingface.co/aubmindlab/bert-base-arabertv2)  
+- **AraBERT**: [`aubmindlab/bert-base-arabertv2`](https://huggingface.co/aubmindlab/bert-base-arabertv2)
+- **ARBERT**: [`UBC-NLP/ARBERT`](https://huggingface.co/UBC-NLP/ARBERT)  
 - **MARBERT**: [`UBC-NLP/MARBERT`](https://huggingface.co/UBC-NLP/MARBERT)  
 
 These models are automatically downloaded from Hugging Face during pipeline execution
